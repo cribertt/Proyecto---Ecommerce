@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.inicio-tienda{
+    text-decoration: none; 
+    color: #000;
+}
+
+.nav-header{
+    text-decoration: none; 
+    font-size: 18px;
+    color: #fff; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+#categoria-title{
+    color: #000;
+    background: #f5f5f5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding: 10px 18px 10px;
+    position: relative;
+}
+.categoria-container{
+    width: 15rem; 
+    clear: both; 
+    list-style: outside none none; 
+    margin: 0 0 40px; 
+    overflow: hidden; 
+    border: 2px solid #f0f0f2;
+}
+
+.categoria-item{
+    text-decoration: none;
+    color: #91918F;
+    padding-bottom: 8px;
+}
+
+.carrito-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin-top: 8px;
+    
+}
+.section1 img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.section1 img:hover{
+    cursor: crosshair;
+    width: 250px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+
+
+
+/*
+body{
+    background-image: url("../img/fondo-body.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+
+
+
+
+#footer-main{
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 130px;
+}
+#footer-quienes-somos{
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 130px;
+}
+#footer-contactame{
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 130px;
+}
+#footer-sucursales{
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 130px;
+}
+.todo-redes{
+    display: block;
+    
+}
+
+.posicion-imgRedes{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+*/
